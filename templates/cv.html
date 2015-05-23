@@ -1,1 +1,51 @@
-CV goes here.
+<center>
+    <h1>EGILL SVEINBJÖRNSSON</h1>
+    
+    <p>(354) - 616 - 8622 ----- egilsster@gmail.com</p>
+    <p>SSID: 061291 - 3189</p>
+    <p>Fljótasel 4 - 109 Reykjavík, Iceland</p>
+</center>
+
+<h3>Education</h3>
+<hr>
+<div ng-repeat="item in education">
+    {{ item.school }}
+    {{ item.degree }}
+    {{ item.date }}
+</div>
+
+<h3>Experience</h3>
+<hr>
+
+<div ng-repeat="item in experience">
+    {{ item.company }}
+    {{ item.position }}
+    {{ item.date }}
+    {{ item.description }}
+    {{ item.location }}
+    {{ item.recommendations }}
+</div>
+
+<h3>Projects</h3>
+<hr>
+
+<div ng-repeat="item in projects">
+    <b>{{ item.workplace }}</b>
+    <i>{{ item.name }}</i>
+    {{ item.date }}
+    {{ item. location }}
+    {{ item.description }}
+</div>
+
+<h3>Technical</h3>
+<hr>
+<div ng-repeat="(type, list) in technical">
+    <table class="table">
+        <tr>
+            <td><b>{{ type }}</b></td>
+            <td>{{ list }}</td>
+        </tr>
+    </table>
+
+</div>
+
