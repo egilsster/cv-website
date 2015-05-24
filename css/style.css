@@ -23,6 +23,19 @@ body {
     font-family: "Computer Modern", sans-serif;
 }
 
+dl.inline dt, dl.inline dd {
+    float: left;
+    margin: 0 0.5em 0 0;
+}
+
+dl.inline dd + dt, dl.inline dd + dd {
+    clear: left
+}
+
+dl.inline dt {
+    font-weight: bold
+}
+
 .alignleft {
     float: left;
 }
@@ -33,4 +46,9 @@ body {
 
 .clearfloat {
     clear: both;
+}
+
+.box-header {
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
 }

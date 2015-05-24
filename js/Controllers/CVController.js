@@ -16,8 +16,8 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
         {
             company: "Nýherji",
             position: "Field Service Technician",
-            date: "february 2012 - august 2013, summer 2014",
-            description: "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked in field service and was assisting Icelandair Group (and daughter corporations) employees with technical problems (april 2012 - august 2013).",
+            date: "february 2012 - august 2013, summer 2014, summer 2015",
+            description: "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked in field service and was assisting Icelandair Group (and daughter corporations) employees with technical problems (april 2012 - august 2013, summer 2014 and summer 2015).",
             location: "Keflavik and Reykjavík, Iceland",
             recommendations: "Sigurður Vignir Sigurðsson (group leader) - P. 859-1149"
         },

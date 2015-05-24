@@ -6,51 +6,62 @@
     <p>Fljótasel 4 - 109 Reykjavík, Iceland</p>
 </center>
 
-<h3>Education</h3>
-<hr>
+<h3 class="box-header">Education</h3>
+
 <div ng-repeat="item in education">
-    {{ item.school }}
-    {{ item.degree }}
-    {{ item.date }}
+    <p class="alignleft"><b>{{ item.school }}</b></p>
+    <p class="alignright">{{ item.date }}</p>
+
+    <div class="clearfloat"></div>
+
+    <p>{{ item.degree }}</p>
+    <br>
 </div>
 
-<h3>Experience</h3>
-<hr>
+<h3 class="box-header">Experience</h3>
 
 <div ng-repeat="item in experience">
     <p class="alignleft"><b>{{ item.company }}</b></p>
     <p class="alignright">{{ item.date }}</p>
 
-    <p><i>{{ item.position }}</i></p>
-    <p>{{ item.location }}</p>
+    <div class="clearfloat"></div>
+
+    <p class="alignleft"><i>{{ item.position }}</i></p>
+    <p class="alignright"><i>{{ item.location }}</i></p>
+
+    <div class="clearfloat"></div>
 
     <p>{{ item.description }}</p>
     <p>{{ item.recommendations }}</p>
+
+    <br>
 </div>
 
-<h3>Projects</h3>
-<hr>
+<h3 class="box-header">Projects</h3>
 
-<div ng-repeat="item in projects">
-    <div class="clearfloat">
-        <b>{{ item.workplace }}</b>
-        <i>{{ item.name }}</i>
-    </div>
-    
+<div ng-repeat="item in projects">    
+    <p class="alignleft"><b>{{ item.workplace }}</b></p>
     <p class="alignright">{{ item.date }}</p>
-    {{ item. location }}
-    {{ item.description }}
+
+    <div class="clearfloat"></div>
+    
+    <p class="alignleft"><i>{{ item.name }}</i></p>
+    <p class="alignright"><i>{{ item.location }}</i></p>
+
+    <div class="clearfloat"></div>
+
+    <p>{{ item.description }}</p>
+
+    <br>
 </div>
 
-<h3>Technical</h3>
-<hr>
+<h3 class="box-header">Technical</h3>
 
-<dl>    
-<div ng-repeat="(type, list) in technical">
-        <dt><b>{{ type }}:</b></dt>
+<dl class="inline">    
+    <div ng-repeat="(type, list) in technical">
+        <dt>{{ type }}:</dt>
         <dd>{{ list }}</dd>
         <br>
+    </div>
 </dl>
-
-</div>
 
