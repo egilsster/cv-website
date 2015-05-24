@@ -15,7 +15,8 @@
     <div class="clearfloat"></div>
 
     <p>{{ item.degree }}</p>
-    <br>
+
+    <hr ng-if="!$last">
 </div>
 
 <h3 class="box-header">Experience</h3>
@@ -33,9 +34,12 @@
 
     <p>{{ item.description }}</p>
 
-    <p ng-if="item.recommendations != ''">Recommendations: {{ item.recommendations }}</p>
+    <div ng-if="item.recommendations.length != 0">
+        <p><b>Recommendations:</b></p>
+        <p class="recommendation-item" ng-repeat="recommendation in item.recommendations">{{ recommendation }}</p>
+    </div>
 
-    <br>
+    <hr ng-if="!$last">
 </div>
 
 <h3 class="box-header">Projects</h3>
@@ -53,7 +57,7 @@
 
     <p>{{ item.description }}</p>
 
-    <br>
+    <hr ng-if="!$last">
 </div>
 
 <h3 class="box-header">Technical</h3>
@@ -65,4 +69,3 @@
         <br>
     </div>
 </dl>
-

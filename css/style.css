@@ -23,6 +23,13 @@ body {
     font-family: "Computer Modern", sans-serif;
 }
 
+footer {
+    margin-bottom: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
 dl.inline dt, dl.inline dd {
     float: left;
     margin: 0 0.5em 0 0;
@@ -52,3 +59,17 @@ dl.inline dt {
     text-transform: uppercase;
     border-bottom: 1px solid black;
 }
+
+.recommendation-item {
+    display: list-item;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
