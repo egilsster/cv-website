@@ -17,7 +17,7 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             company: "Nýherji",
             position: "Field Service Technician",
             date: "february 2012 - august 2013, summer 2014, summer 2015",
-            description: "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked in field service and was assisting Icelandair Group (and daughter corporations) employees with technical problems (april 2012 - august 2013, summer 2014 and summer 2015).",
+            description: "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked in field service and was assisting Icelandair Group (and subsidiaries) employees with technical problems (april 2012 - august 2013, summer 2014 and summer 2015).",
             location: "Keflavik and Reykjavík, Iceland",
             recommendations: [ "Sigurður Vignir Sigurðsson (group leader) - P. 859 - 1149" ]
         },
@@ -62,7 +62,7 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             url: "https://github.com/egilsster/Panda2014",
             date: "april 2014",
             location: "Reykjavík, Iceland",
-            description: "A project from three week course at Reykjavik University. A web system where users could upload and download subtitles (in the srt format) for movies and TV shows. On the website, every user could download subtitles but only registered users could modify and upload subtitles. The system was written in Visual Studio using MVC. Websites were written in HTML5 and the form to change subtitles was done with JavaScript and jQuery. The system never went live for real usage."
+            description: "A project from three week course at Reykjavik University. A web system where users could upload and download subtitles (in the srt format) for movies and TV shows. On the website, every user could download subtitles but only registered users could modify and upload subtitles. The system was written in Visual Studio using MVC. Websites were written in HTML5 and the form to change subtitles was done with JavaScript and jQuery."
         },
         {
             workplace: "Reykjavík University",
@@ -82,5 +82,5 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
         Tools: "Vim, Nano, Sublime Text, Excel, Word, PowerPoint, TeX, Git"
     };
 
-
+    $scope.misc = "My passions are music, working out and new technology. I am honest and reliable. I learn very quickly and I love doing so, I am also very tidy and organized.";
 }]);
