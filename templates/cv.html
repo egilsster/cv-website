@@ -18,34 +18,39 @@
 <hr>
 
 <div ng-repeat="item in experience">
-    {{ item.company }}
-    {{ item.position }}
-    {{ item.date }}
-    {{ item.description }}
-    {{ item.location }}
-    {{ item.recommendations }}
+    <p class="alignleft"><b>{{ item.company }}</b></p>
+    <p class="alignright">{{ item.date }}</p>
+
+    <p><i>{{ item.position }}</i></p>
+    <p>{{ item.location }}</p>
+
+    <p>{{ item.description }}</p>
+    <p>{{ item.recommendations }}</p>
 </div>
 
 <h3>Projects</h3>
 <hr>
 
 <div ng-repeat="item in projects">
-    <b>{{ item.workplace }}</b>
-    <i>{{ item.name }}</i>
-    {{ item.date }}
+    <div class="clearfloat">
+        <b>{{ item.workplace }}</b>
+        <i>{{ item.name }}</i>
+    </div>
+    
+    <p class="alignright">{{ item.date }}</p>
     {{ item. location }}
     {{ item.description }}
 </div>
 
 <h3>Technical</h3>
 <hr>
+
+<dl>    
 <div ng-repeat="(type, list) in technical">
-    <table class="table">
-        <tr>
-            <td><b>{{ type }}</b></td>
-            <td>{{ list }}</td>
-        </tr>
-    </table>
+        <dt><b>{{ type }}:</b></dt>
+        <dd>{{ list }}</dd>
+        <br>
+</dl>
 
 </div>
 
