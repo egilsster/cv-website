@@ -1,16 +1,16 @@
 <center>
     <h1>EGILL SVEINBJÖRNSSON</h1>
     
-    <p>(354) - 616 - 8622 ----- egilsster@gmail.com</p>
-    <p>SSID: 061291 - 3189</p>
-    <p>Fljótasel 4 - 109 Reykjavík, Iceland</p>
+    <p>(354) &#9642; 616 &#9642; 8622 &#9671; <a href="mailto:egilsster@gmail.com">egilsster@gmail.com</a></p>
+    <p>SSID: 061291 &#9642; 3189</p>
+    <p>Fljótasel 4 &#9671; 109 Reykjavík, Iceland</p>
 </center>
 
 <h3 class="box-header">Education</h3>
 
 <div ng-repeat="item in education">
     <p class="alignleft"><b>{{ item.school }}</b></p>
-    <p class="alignright">{{ item.date }}</p>
+    <p class="alignright"><i>{{ item.date }}</i></p>
 
     <div class="clearfloat"></div>
 
@@ -22,7 +22,7 @@
 
 <div ng-repeat="item in experience">
     <p class="alignleft"><b>{{ item.company }}</b></p>
-    <p class="alignright">{{ item.date }}</p>
+    <p class="alignright"><i>{{ item.date }}</i></p>
 
     <div class="clearfloat"></div>
 
@@ -41,11 +41,11 @@
 
 <div ng-repeat="item in projects">    
     <p class="alignleft"><b>{{ item.workplace }}</b></p>
-    <p class="alignright">{{ item.date }}</p>
+    <p class="alignright"><i>{{ item.date }}</i></p>
 
     <div class="clearfloat"></div>
     
-    <p class="alignleft"><i>{{ item.name }}</i></p>
+    <p class="alignleft"><i><a href="{{ item.url }}">{{ item.name }}</a></i></p>
     <p class="alignright"><i>{{ item.location }}</i></p>
 
     <div class="clearfloat"></div>

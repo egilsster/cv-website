@@ -59,9 +59,18 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
         {
             workplace: "Reykjavík University",
             name: "PandaBase",
+            url: "https://github.com/egilsster/Panda2014",
             date: "april 2014",
             location: "Reykjavík, Iceland",
             description: "A project from three week course at Reykjavik University. A web system where users could upload and download subtitles (in the “srt” format) for movies and TV shows. On the website, every user could download subtitles but only registered users could modify and upload subtitles. The system was written in Visual Studio using MVC. Websites were written in HTML5 and the form to change subtitles was done with JavaScript and jQuery. The system never went live for real usage."
+        },
+        {
+            workplace: "Reykjavík University",
+            name: "Mini Mooshak",
+            url: "https://github.com/egilsster/Python/tree/master/Verkefni%205/Mini%20Mooshak",
+            date: "may 2015",
+            location: "Reykjavík, Iceland",
+            description: "A server written in Python 3.4 using the Flask microframwork. Its a server that automatically grades solutions sent in by students. It's a project I made in a Python course. The real Mooshak is a system that Reykjavík Univeristy uses to grade solutions by students and gives feedback. The problem descriptions were taken from the real Mooshak and Kattis. See the projects GitHub page for more information."
         }
     ];
 
