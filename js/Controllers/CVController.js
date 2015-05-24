@@ -19,7 +19,7 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             date: "february 2012 - august 2013, summer 2014, summer 2015",
             description: "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked in field service and was assisting Icelandair Group (and daughter corporations) employees with technical problems (april 2012 - august 2013, summer 2014 and summer 2015).",
             location: "Keflavik and Reykjavík, Iceland",
-            recommendations: "Sigurður Vignir Sigurðsson (group leader) - P. 859-1149"
+            recommendations: "Sigurður Vignir Sigurðsson (group leader) - P. 859 - 1149"
         },
         {
             company: "Hurðaborg / Crawford-hurðir",
@@ -27,7 +27,7 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             date: "june 2012 - july 2012",
             description: "A month gardening project.",
             location: "Garðabær, Iceland",
-            recommendations: "Stefán B. Ólafsson – P. 869-7012"
+            recommendations: "Stefán B. Ólafsson – P. 869 - 7012"
         },
         {
             company: "Orkuveita Reykjavíkur",
@@ -70,16 +70,16 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             url: "https://github.com/egilsster/Python/tree/master/Verkefni%205/Mini%20Mooshak",
             date: "may 2015",
             location: "Reykjavík, Iceland",
-            description: "A server written in Python 3.4 using the Flask microframwork. Its a server that automatically grades solutions sent in by students. It's a project I made in a Python course. The real Mooshak is a system that Reykjavík Univeristy uses to grade solutions by students and gives feedback. The problem descriptions were taken from the real Mooshak and Kattis. See the projects GitHub page for more information."
+            description: "A server written in Python 3.4 using the Flask microframework. Its a server that automatically grades solutions sent in by students. It's a project I made in a Python course. The real Mooshak is a system that Reykjavík University uses to grade solutions by students and gives feedback. The problem descriptions were taken from the real Mooshak and Kattis. See the projects GitHub page for more information."
         }
     ];
 
     $scope.technical = {
         Programming: "C++, Python, JavaScript, Java, C#",
-        Web: "HTML, CSS, jQuery, AngularJS",
+        Web: "HTML, CSS, jQuery, AngularJS, Flask",
         Databases: "MySQL",
         Methods: "Lean, Agile, Scrum, Dynamic Programming",
-        Tools: "Vim, Nano, Sublime Text, Excel, Word, PowerPoint, TeX"
+        Tools: "Vim, Nano, Sublime Text, Excel, Word, PowerPoint, TeX, Git"
     };
 
 

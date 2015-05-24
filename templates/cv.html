@@ -32,7 +32,8 @@
     <div class="clearfloat"></div>
 
     <p>{{ item.description }}</p>
-    <p>{{ item.recommendations }}</p>
+
+    <p ng-if="item.recommendations != ''">Recommendations: {{ item.recommendations }}</p>
 
     <br>
 </div>
