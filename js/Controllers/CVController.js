@@ -70,7 +70,7 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
             url: "https://github.com/egilsster/Python/tree/master/Verkefni%205/Mini%20Mooshak",
             date: "may 2015",
             location: "Reykjavík, Iceland",
-            description: "A server written in Python 3.4 using the Flask microframework. Its a server that automatically grades solutions sent in by students. It's a project I made in a Python course. The real Mooshak is a system that Reykjavík University uses to grade solutions by students and gives feedback. The problem descriptions were taken from the real Mooshak and Kattis. See the projects GitHub page for more information."
+            description: "A server written in Python 3.4 using the Flask microframework. It's a server that automatically grades solutions sent in by students. It's a project I made in a Python course. The real Mooshak is a system that Reykjavík University uses to grade solutions by students and gives feedback. The problem descriptions were taken from the real Mooshak and Kattis. See the projects GitHub page for more information."
         }
     ];
 
