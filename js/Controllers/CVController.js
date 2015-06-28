@@ -82,5 +82,5 @@ angular.module('HomeApp').controller('CVController', ["$scope", "$rootScope", "$
         Tools: "Vim, Nano, Sublime Text, Excel, Word, PowerPoint, TeX, Git"
     };
 
-    $scope.misc = "My passions are music, working out and new technology. I am honest and reliable. I learn very quickly and I love learning new things, I am very tidy and organized.";
+    $scope.misc = "Misc.";
 }]);
