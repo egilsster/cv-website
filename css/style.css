@@ -21,6 +21,8 @@
 
 body {
     font-family: "Computer Modern", sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 footer {
@@ -65,11 +67,15 @@ dl.inline dt {
     margin: 20px;
 }
 
+.icons {
+    font-size: 35px;
+}
 
+.iconlink {
+    color: black;
+}
 
-
-
-
-
-
-
+.iconlink:hover {
+    color: #555;
+    text-decoration: none;
+}
