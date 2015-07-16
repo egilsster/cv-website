@@ -35,6 +35,15 @@ footer {
     padding-top: 25px;
     text-align: center;
 }
+
+/* Selections */
+
+::selection {
+  color: #FF4D4D;
+}
+
+/* CV */
+
 .section-heading {
     text-align: center;
     margin: 0 auto;
@@ -150,25 +159,11 @@ footer {
 .site-title {
     text-transform: uppercase;
 }
-dl.inline dt, dl.inline dd {
-    float: left;
-    margin: 0 0.5em 0 0;
-}
-dl.inline dd + dt, dl.inline dd + dd {
-    clear: left
-}
-dl.inline dt {
-    font-weight: bold
-}
-.icons {
-    font-size: 35px;
-}
-.iconlink {
-    color: black;
-}
-.iconlink:hover {
-    color: lightgrey;
-    text-decoration: none;
+.list-description {
+    font-family: "Apercu Bold", Calibri, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ECF0F1;
 }
 .link-list {
     padding: 0;
@@ -182,4 +177,17 @@ dl.inline dt {
 }
 .link-item:last-child:after {
     content: "";
+}
+
+/* Footer */
+
+.icons {
+    font-size: 35px;
+}
+.iconlink {
+    color: black;
+}
+.iconlink:hover {
+    color: lightgrey;
+    text-decoration: none;
 }
