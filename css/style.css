@@ -26,7 +26,7 @@ a {
 }
 a:hover {
     color: #253334 !important;
-    border-bottom: 1px dotted #eb7425;
+    border-bottom: 1px dotted #FF5722;
     text-decoration: none;
 }
 
@@ -71,7 +71,9 @@ a:hover {
 /* Selections */
 
 ::selection {
-    color: #FF5722;
+    color: #FFFFFF;
+    background-color: #FF5722;
+
 }
 
 /* CV */
