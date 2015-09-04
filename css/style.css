@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700);
-
-* {
-    box-sizing: border-box;
-}
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -21,12 +17,12 @@ img {
 }
 a {
     text-decoration: none;
-	border-bottom: 1px dotted;
-	transition: 0.25s ease-out;
-	-webkit-transition: 0.25s ease-out;
-	-moz-transition: 0.25s ease-out;
-	-o-transition: 0.25s ease-out;
-    color: #656a68;
+    border-bottom: 1px dotted;
+    transition: 0.25s ease-out;
+    -webkit-transition: 0.25s ease-out;
+    -moz-transition: 0.25s ease-out;
+    -o-transition: 0.25s ease-out;
+    color: #727272;
 }
 a:hover {
     color: #253334 !important;
@@ -35,8 +31,9 @@ a:hover {
 }
 
 /* Top canvas */
+
 .canvas {
-    border-top: 10px solid black;
+    border-top: 10px solid #212121;
     font-family: 'Source Sans Pro', sans-serif;
     height: 100vh;
     background-color: #f2f4f1;
@@ -45,11 +42,12 @@ a:hover {
 .canvas-container {
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 60%;
     height: 50%;
-
     max-width: 520px;
 }
 .bold {
@@ -73,7 +71,7 @@ a:hover {
 /* Selections */
 
 ::selection {
-  color: #FF4D4D;
+    color: #FF5722;
 }
 
 /* CV */
@@ -81,23 +79,22 @@ a:hover {
 .cv > h1 {
     font-size: 40pt;
     text-align: center;
-    color: #95A5A6;
+    color: #212121;
     padding: 30px;
     font-weight: normal;
 }
 .cv {
-    color: #7F8C8D;
+    color: #212121;
     padding-bottom: 100px;
 }
 .cv-group {
     margin: 0 auto;
     max-width: 700px;
 }
-
 .cv-item {
     position: relative;
     max-width: 700px;
-    border-bottom: 1px solid #ECF0F1;
+    border-bottom: 1px solid #B6B6B6;
     margin: 0 auto 30px;
     padding: 0 0 20px;
 }
@@ -116,23 +113,23 @@ a:hover {
     font-family: "Apercu Bold", Calibri, sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #7F8C8D;
+    color: #212121;
     display: inline;
 }
 .cv-item .description {
     display: block;
-    color: #7F8C8D;
+    color: #727272;
     padding-left: 10px;
     font-size: 10px;
 }
 .cv-item .duration {
     display: block;
     font-size: 12px;
-    color: #7F8C8D;
+    color: #727272;
 }
 .cv-item .content {
     font-size: 14px;
-    color: #7F8C8D;
+    color: #727272;
     line-height: 17px;
     padding-top: 10px;
 }
@@ -148,7 +145,7 @@ a:hover {
     display: block;
     width: 6px;
     height: 6px;
-    border: 1px solid #999;
+    border: 1px solid #727272;
     border-radius: 50%;
     margin-top: -3px;
     margin-right: 12px;
@@ -161,9 +158,6 @@ a:hover {
         text-align: left;
         padding-left: 80px;
         min-height: 0;
-    }
-    .cv-item img {
-        left: -10px;
     }
     .cv-item .description {
         display: inline-block;
@@ -179,7 +173,7 @@ a:hover {
     font-family: "Apercu Bold", Calibri, sans-serif;
     font-weight: 700;
     margin-bottom: 0.5em;
-    border-bottom: 1px solid #ECF0F1;
+    border-bottom: 1px solid #B6B6B6;
 }
 .link-list {
     padding: 0;
