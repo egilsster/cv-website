@@ -25,7 +25,6 @@ a {
 	transition: 0.25s ease-out;
 	-webkit-transition: 0.25s ease-out;
 	-moz-transition: 0.25s ease-out;
-	-ms-transition: 0.25s ease-out;
 	-o-transition: 0.25s ease-out;
     color: #656a68;
 }
@@ -34,9 +33,7 @@ a:hover {
     border-bottom: 1px dotted #eb7425;
     text-decoration: none;
 }
-.container-fluid {
-    padding: 0;
-}
+
 /* Top canvas */
 .canvas {
     border-top: 10px solid black;
@@ -45,7 +42,7 @@ a:hover {
     background-color: #f2f4f1;
     font-size: 16pt;
 }
-.canvascontainer {
+.canvas-container {
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
@@ -81,32 +78,28 @@ a:hover {
 
 /* CV */
 
-.section-heading {
+.cv > h1 {
+    font-size: 40pt;
     text-align: center;
-    margin: 0 auto;
     color: #95A5A6;
-    font-size: 26px;
-    padding: 50px;
+    padding: 30px;
     font-weight: normal;
 }
 .cv {
     color: #7F8C8D;
+    padding-bottom: 100px;
 }
 .cv-group {
     margin: 0 auto;
     max-width: 700px;
 }
-.cv-category {
-    text-decoration: underline;
-    margin-bottom: 25px;
-}
+
 .cv-item {
     position: relative;
     max-width: 700px;
-    margin: 0 auto;
     border-bottom: 1px solid #ECF0F1;
-    margin-bottom: 30px;
-    padding: 0 0px 20px;
+    margin: 0 auto 30px;
+    padding: 0 0 20px;
 }
 .cv-item header {
     min-height: 60px;
@@ -116,13 +109,13 @@ a:hover {
 .cv-item img {
     position: absolute;
     top: 0;
-    left: 0px;
+    left: 0;
     width: 60px;
 }
 .cv-item h1 {
     font-family: "Apercu Bold", Calibri, sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     color: #7F8C8D;
     display: inline;
 }
@@ -170,7 +163,7 @@ a:hover {
         min-height: 0;
     }
     .cv-item img {
-        left: -10;
+        left: -10px;
     }
     .cv-item .description {
         display: inline-block;
@@ -182,17 +175,9 @@ a:hover {
         padding-left: 80px;
     }
 }
-.panel-title {
-    color: #95A5A6;
-}
-.panel {
-    max-width: 700px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 .list-description {
     font-family: "Apercu Bold", Calibri, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0.5em;
     border-bottom: 1px solid #ECF0F1;
 }
@@ -202,12 +187,9 @@ a:hover {
 .link-item {
     display: inline;
 }
-
-/* Footer */
-
-footer, footer a {
-
-    margin-bottom: 50px;
-    padding-top: 25px;
-
+.cv-group > h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 4px solid;
+    font-variant: small-caps;
 }
