@@ -95,8 +95,8 @@ b, strong, .bold
 /* Selections */
 
 ::selection
-    color: #FFFFFF
-    background-color: $accent-color
+    color: white
+    background-color: $primary-color
 
 /* CV */
 
@@ -157,22 +157,12 @@ b, strong, .bold
     line-height: 17px
     padding-top: 10px
 
-.cv-item .recommendation-item
-    position: relative
-    line-height: 26px
+.recommendations li::before
+    content: '\0BB'
+    padding-right: 5px
 
-.cv-item .recommendation-item::before
-    content: ''
-    position: absolute
-    top: 50%
-    right: 100%
-    display: block
-    width: 6px
-    height: 6px
-    border: 1px solid $secondary-text
-    border-radius: 50%
-    margin-top: -3px
-    margin-right: 12px
+.recommendations ul
+    padding-left: 10px
 
 /* Extra desktop settings */
 @media screen and (min-width: 500px)
@@ -194,6 +184,7 @@ b, strong, .bold
         padding-left: 80px
 
 /* List items */
+
 .list-description
     font-family: $cv-font-bold
     font-weight: 700
