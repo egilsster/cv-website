@@ -65,7 +65,8 @@ b, strong, .bold {
 .about p {
   padding-bottom: 50px; }
 
-.footer, .footer a {
+.footer {
+  padding-top: 15px;
   color: black;
   font-size: 12pt;
   text-align: right; }
@@ -90,6 +91,12 @@ b, strong, .bold {
 .cv-group {
   margin: 0 auto;
   max-width: 700px; }
+
+.cv-group > h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: 4px solid;
+  font-variant: small-caps; }
 
 .cv-item {
   position: relative;
@@ -140,6 +147,22 @@ b, strong, .bold {
 .recommendations ul {
   padding-left: 10px; }
 
+/* List items */
+.list-description {
+  font-family: "Apercu Bold", Calibri, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #B6B6B6; }
+
+.link-list {
+  padding: 0; }
+
+.link-item {
+  display: inline; }
+
+.list-inline {
+  color: #727272; }
+
 /* Extra desktop settings */
 @media screen and (min-width: 500px) {
   .cv-item {
@@ -158,26 +181,5 @@ b, strong, .bold {
 
   .cv-item .content {
     padding-left: 80px; } }
-/* List items */
-.list-description {
-  font-family: "Apercu Bold", Calibri, sans-serif;
-  font-weight: 700;
-  margin-bottom: 0.5em;
-  border-bottom: 1px solid #B6B6B6; }
-
-.link-list {
-  padding: 0; }
-
-.link-item {
-  display: inline; }
-
-.list-inline {
-  color: #727272; }
-
-.cv-group > h2 {
-  margin-bottom: 40px;
-  margin-top: 40px;
-  border-bottom: 4px solid;
-  font-variant: small-caps; }
 
 /*# sourceMappingURL=style.css.map */

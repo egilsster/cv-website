@@ -17,6 +17,7 @@ $text-icons: #FFFFFF
 $accent-color: #FF5722
 $primary-text: #212121
 $secondary-text: #727272
+$hover-link: #253334
 $divider-color: #B6B6B6
 
 /* Styles */
@@ -47,8 +48,8 @@ a
     color: $primary-text
 
 a:hover
-    color: #253334 !important
-    border-bottom: 1px dotted #FF5722
+    color: $hover-link !important
+    border-bottom: 1px dotted $accent-color
     text-decoration: none
 
 .cv-group
@@ -87,7 +88,8 @@ b, strong, .bold
 .about p
     padding-bottom: 50px
 
-.footer, .footer a
+.footer
+    padding-top: 15px
     color: black
     font-size: 12pt
     text-align: right
@@ -114,6 +116,12 @@ b, strong, .bold
 .cv-group
     margin: 0 auto
     max-width: 700px
+
+.cv-group > h2
+    margin-bottom: 40px
+    margin-top: 40px
+    border-bottom: 4px solid
+    font-variant: small-caps
 
 .cv-item
     position: relative
@@ -164,25 +172,6 @@ b, strong, .bold
 .recommendations ul
     padding-left: 10px
 
-/* Extra desktop settings */
-@media screen and (min-width: 500px)
-    .cv-item
-        padding-right: 0
-
-    .cv-item header
-        text-align: left
-        padding-left: 80px
-        min-height: 0
-
-    .cv-item .description
-        display: inline-block
-
-    .cv-item .duration
-        float: right
-
-    .cv-item .content
-        padding-left: 80px
-
 /* List items */
 
 .list-description
@@ -200,8 +189,22 @@ b, strong, .bold
 .list-inline
     color: $secondary-text
 
-.cv-group > h2
-    margin-bottom: 40px
-    margin-top: 40px
-    border-bottom: 4px solid
-    font-variant: small-caps
+/* Extra desktop settings */
+
+@media screen and (min-width: 500px)
+    .cv-item
+        padding-right: 0
+
+    .cv-item header
+        text-align: left
+        padding-left: 80px
+        min-height: 0
+
+    .cv-item .description
+        display: inline-block
+
+    .cv-item .duration
+        float: right
+
+    .cv-item .content
+        padding-left: 80px
