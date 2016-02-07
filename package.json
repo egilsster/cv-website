@@ -1,0 +1,39 @@
+{
+  "name": "spagli.io",
+  "version": "1.0.0",
+  "description": "Homepage for Egill Sveinbjornsson",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egilsster/Homepage.git"
+  },
+  "author": "egilsster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egilsster/Homepage/issues"
+  },
+  "homepage": "https://github.com/egilsster/Homepage#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "convert-source-map": "^1.1.3",
+    "dargs": "^4.1.0",
+    "each-async": "^1.1.1",
+    "express": "^4.13.4",
+    "glob": "^6.0.4",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.0",
+    "gulp-util": "^3.0.7",
+    "mkdirp": "^0.5.1",
+    "object-assign": "^4.0.1",
+    "rimraf": "^2.5.1",
+    "slash": "^1.0.0",
+    "tiny-lr": "^0.2.1",
+    "vinyl": "^1.1.1",
+    "win-spawn": "^2.0.0"
+  }
+}

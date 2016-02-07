@@ -180,14 +180,15 @@ b, strong, .bold
     margin-bottom: 0.5em
     border-bottom: 1px solid $divider-color
 
-.link-list
+.inline-list
     padding: 0
+    color: $secondary-text
 
-.link-item
+.inline-list li
     display: inline
 
-.list-inline
-    color: $secondary-text
+.inline-list li + li:before
+    content: " / "
 
 /* Extra desktop settings */
 
