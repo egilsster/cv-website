@@ -2,7 +2,8 @@ var gulp = require('gulp'),
 	sass = require('gulp-ruby-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
 	minifycss = require('gulp-minify-css'),
-	rename = require('gulp-rename');
+	rename = require('gulp-rename'),
+	minifyHTML = require('gulp-minify-html');
 
 gulp.task('express', function () {
 	var express = require('express');
@@ -42,6 +43,13 @@ gulp.task('watch', function () {
 	gulp.watch('css/*.css', notifyLiveReload);
 });
 
-gulp.task('default', ['styles', 'express', 'livereload', 'watch'], function () {
+gulp.task('minify-html', function() {
+	return gulp.src('src/*.html')
+		.pipe(minifyHTML({ empty: true }))
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest('dist'));
+});
+
+gulp.task('default', ['styles', 'minify-html', 'express', 'livereload', 'watch'], function () {
 
 });
