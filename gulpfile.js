@@ -46,8 +46,7 @@ gulp.task('watch', function () {
 gulp.task('minify-html', function() {
 	return gulp.src('src/*.html')
 		.pipe(minifyHTML({ empty: true }))
-		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./'));
 });
 
 gulp.task('default', ['styles', 'minify-html', 'express', 'livereload', 'watch'], function () {
