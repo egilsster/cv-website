@@ -52,7 +52,3 @@ gulp.task('minify-html', function() {
 gulp.task('default', ['styles', 'minify-html', 'express', 'livereload', 'watch'], function () {
 
 });
-
-gulp.task('deploy', ['styles', 'minify-html'], function () {
-
-});
