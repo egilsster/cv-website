@@ -9,7 +9,7 @@ gulp.task('sass', function () {
         .pipe(sass().on('error', sass.logError))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./css'));
 });
 
 gulp.task('watch', function () {
@@ -21,7 +21,7 @@ gulp.task('watch', function () {
 gulp.task('minify-html', function () {
     gulp.src('src/*.html')
         .pipe(minifyHTML({empty: true}))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./'));
 });
 
 gulp.task('default', ['sass', 'minify-html', 'watch']);
