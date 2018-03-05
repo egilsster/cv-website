@@ -8,20 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egilsster/Homepage.git"
+    "url": "git+https://github.com/egilsster/egilsster.github.io.git"
   },
   "author": "egilsster",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/egilsster/Homepage/issues"
-  },
-  "homepage": "https://github.com/egilsster/Homepage#readme",
+  "homepage": "https://github.com/egilsster/egilsster.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-minify-css": "^1.2.3",
-    "gulp-minify-html": "^1.0.5",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.2.0",
-    "gulp-util": "^3.0.7"
+    "gulp-sass": "^2.2.0"
   }
 }
