@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700);
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  transition: 0.25s ease-out;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  color: #212121;
+}
+
+a:hover {
+  color: #253334 !important;
+  border-bottom: 1px dotted #ff5722;
+  text-decoration: none;
+}
+
+.cv-group a {
+  color: #727272;
+}
+
+/* Top canvas */
+.canvas {
+  border-top: 10px solid #212121;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
+  background-color: #e7eaea;
+  font-size: 16pt;
+}
+
+.canvas-container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 50%;
+  max-width: 520px;
+}
+
+b,
+strong,
+.bold {
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.about p {
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding-top: 15px;
+  color: black;
+  font-size: 12pt;
+  text-align: right;
+}
+
+/* Selections */
+::selection {
+  color: white;
+  background-color: #607d8b;
+}
+
+/* CV */
+.cv > h1 {
+  font-size: 40pt;
+  text-align: center;
+  color: #212121;
+  padding: 30px;
+  font-weight: normal;
+}
+
+.cv {
+  color: #212121;
+  padding-bottom: 100px;
+}
+
+.cv-group {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.cv-group > h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: 4px solid;
+  font-variant: small-caps;
+}
+
+.cv-item {
+  position: relative;
+  max-width: 700px;
+  border-bottom: 1px solid #b6b6b6;
+  margin: 0 auto 30px;
+  padding: 0 0 20px;
+}
+
+.cv-item header {
+  min-height: 60px;
+  padding-left: 95px;
+  text-align: center;
+}
+
+.cv-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+}
+
+.cv-item h1 {
+  font-family: "Apercu Bold", Calibri, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #212121;
+  display: inline;
+}
+
+.cv-item .description {
+  display: block;
+  color: #727272;
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+.cv-item .duration {
+  display: block;
+  font-size: 12px;
+  color: #727272;
+}
+
+.cv-item .content {
+  font-size: 14px;
+  color: #727272;
+  line-height: 17px;
+  padding-top: 10px;
+}
+
+.recommendations li::before {
+  content: "\0BB";
+  padding-right: 5px;
+}
+
+.recommendations {
+  padding-left: 10px;
+}
+
+/* List items */
+.list-description {
+  font-family: "Apercu Bold", Calibri, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+.inline-list {
+  padding: 0;
+  color: #727272;
+}
+
+.inline-list li {
+  display: inline;
+}
+
+.inline-list li + li:before {
+  content: " / ";
+}
+
+/* Extra desktop settings */
+@media screen and (min-width: 500px) {
+  .cv-item {
+    padding-right: 0;
+  }
+  .cv-item header {
+    text-align: left;
+    padding-left: 80px;
+    min-height: 0;
+  }
+  .cv-item .description {
+    display: inline-block;
+  }
+  .cv-item .duration {
+    float: right;
+  }
+  .cv-item .content {
+    padding-left: 80px;
+  }
+}
