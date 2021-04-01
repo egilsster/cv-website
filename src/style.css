@@ -1,0 +1,19 @@
+/* Move most to svelte files */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700);
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.5;
+}

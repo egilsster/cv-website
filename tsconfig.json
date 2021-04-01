@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": ["src/**/*", "types"],
+  "exclude": ["node_modules/*", "build/*", "public/*"],
+  "compilerOptions": {
+    "module": "esnext",
+    "types": ["svelte"]
+  }
+}
