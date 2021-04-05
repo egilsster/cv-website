@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "./TailwindStyles.svelte";
   import Canvas from "./components/Canvas.svelte";
   import CV from "./components/CV.svelte";
   import { data } from "./cv-data";

@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700);
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   position: relative;

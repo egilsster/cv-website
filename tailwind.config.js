@@ -1,3 +1,3 @@
 module.exports = {
-  purge: ["./index.html", "./src/**/*.ts"],
+  purge: ["./index.html", "./src/**/*.{ts,svelte}"],
 };
