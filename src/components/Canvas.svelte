@@ -19,7 +19,9 @@
         <a href="https://github.com/egilsster">programming</a> and CrossFit.
       </p>
 
-      <p class="pt-4 text-black text-right text-sm md:text-md sm:text-base font-extralight">
+      <p
+        class="pt-4 text-black text-right text-sm md:text-md sm:text-base font-extralight"
+      >
         <b class="font-bold">Contact me:</b>
         <a href="mailto:egillsveinbjorns@gmail.com"
           >egillsveinbjorns@gmail.com</a
