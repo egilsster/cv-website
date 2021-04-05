@@ -1,0 +1,14 @@
+.DS_Store
+.gitignore
+.npmignore
+.npmrc
+.prettierignore
+.eslintcache
+.editorconfig
+.husky/
+LICENSE
+package-lock.json
+*.svg
+*.png
+*.ico
+dist/
