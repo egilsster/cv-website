@@ -8,7 +8,7 @@
 
 <article class="flex flex-col items-center">
   <section class="flex flex-row justify-center">
-    <div class="about">
+    <div class="space-y-14">
       <p class="font-bold">
         Hæ, ég heiti Egill &mdash; I am a software engineer at
         <a href="https://www.qlik.com/">Qlik</a>.
@@ -19,11 +19,7 @@
         <a href="https://github.com/egilsster">programming</a> and CrossFit.
       </p>
 
-      <!-- padding-top: 15px;
-    color: black;
-    font-size: 12pt;
-    text-align: right; -->
-      <p class="footer font-extralight">
+      <p class="pt-4 text-black text-right text-base font-extralight">
         <b class="font-bold">Contact me:</b>
         <a href="mailto:egillsveinbjorns@gmail.com"
           >egillsveinbjorns@gmail.com</a
@@ -48,23 +44,8 @@
 
   section {
     margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     width: 60%;
     height: 50%;
     max-width: 520px;
-  }
-
-  .about p {
-    padding-bottom: 50px;
-  }
-
-  .footer {
-    padding-top: 15px;
-    color: black;
-    font-size: 12pt;
-    text-align: right;
   }
 </style>
