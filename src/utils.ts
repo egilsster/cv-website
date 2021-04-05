@@ -13,7 +13,7 @@ export function getTimeRange(start: string, end: string | undefined): string {
     end: end ? new Date(end) : new Date(),
   });
   if (years) {
-    return `${years} years, ${months} months`;
+    return `${years} years, ${months} month(s)`;
   }
-  return `${months} months`;
+  return `${months} month(s)`;
 }
