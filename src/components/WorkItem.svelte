@@ -40,7 +40,7 @@
     <p class="font-light text-justify">{summary}</p>
 
     {#if highlights.length > 0}
-      <ul class="list-disc list-inside px-4 my-4">
+      <ul class="list-disc list-outside px-4 my-4">
         {#each highlights as highlight}
           <li class="font-light">{highlight}</li>
         {/each}
