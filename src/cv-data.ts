@@ -53,8 +53,7 @@ export const data: ResumeSchema = {
       website: "https://home.vizlib.com",
       startDate: "2020-11-02",
       endDate: "2021-02-24",
-      summary:
-        "Worked as a developer and half dev-ops on a greenfield project.",
+      summary: "Worked as a developer and half dev-ops.",
       highlights: [],
     },
     {
