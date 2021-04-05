@@ -21,9 +21,8 @@
     </div>
 
     <section>
-      <p>
-        <span class="font-semibold">{studyType}</span>,
-        <span class="text-gray-500">{institution}</span>
+      <p class="text-lg">
+        {studyType}, <span class="text-gray-600">{institution}</span>
       </p>
       <p>
         {area}
