@@ -14,14 +14,14 @@
   <header class="flex items-center">
     <div class="mr-4">
       <img
-        class="self-start align-middle w-20"
+        class="self-start align-middle object-contain h-20 md:w-20"
         src={`img/${imageName}`}
         alt={`Logo for ${institution}`}
       />
     </div>
 
-    <section>
-      <p class="text-lg">
+    <section class="text-md md:text-lg">
+      <p class="">
         {studyType}, <span class="text-gray-600">{institution}</span>
       </p>
       <p>

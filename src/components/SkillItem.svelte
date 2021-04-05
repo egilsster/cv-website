@@ -8,9 +8,9 @@
 </script>
 
 <Section>
-  <h5 class="font-semibold">
+  <h5>
     {name}
-    <span class="pl-1 text-sm font-thin italic border-color-blue">{level}</span>
+    <span class="pl-1 text-sm font-thin italic">{level}</span>
   </h5>
 
   <TagList tags={keywords} />

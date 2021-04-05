@@ -6,8 +6,8 @@
   }
 </script>
 
-<article class="flex flex-col items-center">
-  <section class="flex flex-row justify-center">
+<article class="flex flex-col items-center sm:text-xl">
+  <section class="flex flex-row justify-center sm:w-3/5 p-6">
     <div class="space-y-14">
       <p class="font-bold">
         Hæ, ég heiti Egill &mdash; I am a software engineer at
@@ -19,7 +19,7 @@
         <a href="https://github.com/egilsster">programming</a> and CrossFit.
       </p>
 
-      <p class="pt-4 text-black text-right text-base font-extralight">
+      <p class="pt-4 text-black text-right text-sm md:text-md sm:text-base font-extralight">
         <b class="font-bold">Contact me:</b>
         <a href="mailto:egillsveinbjorns@gmail.com"
           >egillsveinbjorns@gmail.com</a
@@ -39,13 +39,10 @@
     font-family: "Source Sans Pro", sans-serif;
     height: 100vh;
     background-color: #e7eaea;
-    font-size: 16pt;
   }
 
   section {
     margin: auto;
-    width: 60%;
     height: 50%;
-    max-width: 520px;
   }
 </style>

@@ -1,4 +1,4 @@
-<h2 class="text-2xl font-semibold my-8 smallcaps border-b-4 border-black">
+<h2 class="md:text-2xl font-semibold my-8 smallcaps border-b-4 border-black">
   <slot />
 </h2>
 
