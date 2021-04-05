@@ -21,8 +21,5 @@ parserOptions:
 env:
   browser: true
 
-globals:
-  $: true
-
 ignorePatterns:
   - "*.config.js"
