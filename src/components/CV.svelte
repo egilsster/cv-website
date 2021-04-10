@@ -10,7 +10,7 @@
   const { work, education, skills } = data;
 </script>
 
-<section class="container md:mx-auto lg:w-3/5 px-3">
+<section class="container md:mx-auto lg:w-3/5 px-3 dark:text-gray-200">
   <h1 class="text-3xl md:text-5xl text-center my-12">Curriculum Vitae</h1>
 
   <div>

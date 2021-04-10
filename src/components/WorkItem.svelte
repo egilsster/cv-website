@@ -14,7 +14,7 @@
 
 <Section>
   <header class="flex items-center">
-    <div class="mr-4">
+    <div class="mr-4 dark:bg-gray-200 p-1">
       <img
         class="self-start align-middle h-7"
         src={`img/${imageName}`}
