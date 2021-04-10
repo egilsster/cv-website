@@ -1,5 +1,6 @@
 <script>
   import Arrow from "./Arrow.svelte";
+  import LightSwitch from "./LightSwitch.svelte";
 
   let darkMode = document.documentElement.classList.contains("dark");
 
@@ -21,9 +22,7 @@
 <article
   class="flex flex-col h-screen items-center border-t-8 border-gray-800 dark:border-gray-200 sm:text-xl bg-[#e7eaea] dark:bg-gray-900 dark:text-gray-200"
 >
-  <button class="self-end m-4" on:click={toggleTheme}
-    >{darkMode ? "🌜" : "🌞"}</button
-  >
+  <LightSwitch on:click={toggleTheme} value={darkMode} />
 
   <section class="flex flex-row justify-center lg:w-2/5 p-6 h-1/2">
     <div class="space-y-14">
