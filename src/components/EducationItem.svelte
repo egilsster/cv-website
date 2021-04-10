@@ -22,11 +22,12 @@
 
     <section class="text-md md:text-lg">
       <p class="">
-        {studyType}, <span class="text-gray-600">{institution}</span>
+        {studyType},
+        <span class="text-gray-600 dark:text-gray-300">{institution}</span>
       </p>
       <p>
         {area}
-        <time class="text-gray-500 text-xs pl-2"
+        <time class="text-gray-500 dark:text-gray-400 text-xs pl-2"
           >{formatDate(startDate)} - {formatDate(endDate)}</time
         >
       </p>

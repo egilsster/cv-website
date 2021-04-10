@@ -27,7 +27,7 @@
         {position},
         <a href={website} target="_blank">{company}</a>
       </p>
-      <time class="text-gray-500 text-xs align-top"
+      <time class="text-gray-500 dark:text-gray-400 text-xs align-top"
         >{formatDate(startDate)} - {formatDate(endDate)} ({getTimeRange(
           startDate,
           endDate
