@@ -4,7 +4,7 @@
   import { data } from "./cv-data";
 </script>
 
-<main>
+<main class="bg-[#f5f5f5] dark:bg-gray-800 pb-1">
   <Canvas />
 
   <CV {data} />
