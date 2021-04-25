@@ -34,3 +34,8 @@ a {
   color: white;
   background-color: #607d8b;
 }
+
+/* Disable double tap to zoom on mobile */
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}

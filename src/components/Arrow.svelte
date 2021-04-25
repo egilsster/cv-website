@@ -44,8 +44,4 @@
   polygon.arrow-top {
     opacity: 0.5;
   }
-
-  .disable-dbl-tap-zoom {
-    touch-action: manipulation;
-  }
 </style>
