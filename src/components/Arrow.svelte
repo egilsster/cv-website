@@ -1,4 +1,4 @@
-<section>
+<section class="disable-dbl-tap-zoom">
   <svg on:click>
     <polygon
       class="arrow-top"
@@ -43,5 +43,9 @@
   }
   polygon.arrow-top {
     opacity: 0.5;
+  }
+
+  .disable-dbl-tap-zoom {
+    touch-action: manipulation;
   }
 </style>
