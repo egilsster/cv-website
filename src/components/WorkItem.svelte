@@ -5,8 +5,8 @@
   export let company: string;
   export let position: string;
   export let startDate: string;
-  export let endDate: string = undefined;
-  export let summary: string = undefined;
+  export let endDate: string | undefined = undefined;
+  export let summary: string | undefined = undefined;
   export let imageName: string;
   export let website: string;
   export let highlights: string[] = [];

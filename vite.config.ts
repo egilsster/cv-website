@@ -1,5 +1,5 @@
 import type { UserConfig } from "vite";
-import svelte from "@sveltejs/vite-plugin-svelte";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 const config: UserConfig = {
   base: "/cv-website/",
