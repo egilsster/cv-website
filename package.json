@@ -15,6 +15,7 @@
     "lint:fix": "npm run lint -- --fix",
     "format:write": "prettier --write \"./**\"",
     "format:check": "prettier --check \"./**\"",
+    "types:check": "tsc --noEmit",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "prepare": "husky install"
