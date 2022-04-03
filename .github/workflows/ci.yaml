@@ -11,20 +11,17 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v2
-      - name: Cache node modules
-        uses: actions/cache@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-npm-
-      - run: npm install
+          node-version: "16"
+          cache: npm
+      - run: npm ci
       - run: npm run lint
       - run: npm run format:check
       - run: npm run types:check
       - run: npm run build
-      - name: Deploy 🚀
+      - name: deploy to github pages
         if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
