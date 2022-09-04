@@ -4,6 +4,7 @@
 .npmrc
 .prettierignore
 .eslintcache
+.eslintignore
 .editorconfig
 .husky/
 LICENSE
