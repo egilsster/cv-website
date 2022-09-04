@@ -11,7 +11,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint ./src",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "format:write": "prettier --write \"./**\"",
     "format:check": "prettier --check \"./**\"",
