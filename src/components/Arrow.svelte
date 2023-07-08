@@ -1,5 +1,5 @@
 <section class="disable-dbl-tap-zoom">
-  <svg on:click>
+  <svg on:click on:keydown role="button" tabindex="-1">
     <polygon
       class="arrow-top"
       points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
