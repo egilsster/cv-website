@@ -6,10 +6,9 @@
 .eslintcache
 .eslintignore
 .editorconfig
-.husky/
 LICENSE
-package-lock.json
 *.svg
 *.png
 *.ico
 dist/
+pnpm-lock.yaml

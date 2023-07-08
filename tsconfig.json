@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
-  "include": ["src/**/*", "types", "vite.config.ts", ".eslintrc.js"],
+  "include": ["src/**/*", "types", "*.config.ts", "**.cjs"],
   "exclude": ["node_modules/*", "build/*", "public/*"],
   "compilerOptions": {
     "module": "esnext",
