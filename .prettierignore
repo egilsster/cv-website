@@ -11,4 +11,4 @@ LICENSE
 *.png
 *.ico
 dist/
-pnpm-lock.yaml
+bun.lockb
