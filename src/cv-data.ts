@@ -44,7 +44,7 @@ export const data: ResumeSchema = {
       website: "https://qlik.com",
       startDate: "2021-03-02",
       summary:
-        "Member of a front-end core team that is focused on front-end architecture and streamlining delivery pipelines, workflows and various other pieces all directly related to the front-end strategy at Qlik.",
+        "Member of a front-end core team that is focused on front-end architecture and streamlining delivery pipelines, workflows and various other pieces all directly related to the front-end strategy at Qlik. We build tools, infrastructure, and empower our fellow frontend engineering teams to ship higher quality software in less time.",
       highlights: [],
     },
     {
@@ -53,7 +53,8 @@ export const data: ResumeSchema = {
       website: "https://home.vizlib.com",
       startDate: "2020-11-02",
       endDate: "2021-02-24",
-      summary: "Worked as a developer and half dev-ops.",
+      summary:
+        "Worked as a developer and half dev-ops on a new product called Astrato.",
       highlights: [],
     },
     {
@@ -99,16 +100,6 @@ export const data: ResumeSchema = {
         "Set up all our projects using TypeScript",
         "Introduced them to build process / dev environment best practices, using SASS for CSS, using webpack to bundle and more",
       ],
-    },
-    {
-      company: "Origo",
-      position: "Field Service Technician",
-      website: "https://www.origo.is/",
-      startDate: "2012-02-01",
-      endDate: "2015-09-01",
-      summary:
-        "Finished the Windows XP to Windows 7 transition for Icelandair in Keflavik (february 2012 - march 2012). Worked as a field service technician and was assisting Icelandair Group (and subsidiaries) employees with technical problems (april 2012 - august 2013, summer 2014 and summer 2015).",
-      highlights: [],
     },
   ],
   volunteer: [
@@ -160,32 +151,17 @@ export const data: ResumeSchema = {
     {
       name: "Programming languages (interpreted)",
       level: "master",
-      keywords: ["TypeScript", "JavaScript", "Python"],
+      keywords: ["TypeScript", "JavaScript"],
     },
     {
       name: "Programming languages (compiled)",
-      level: "beginner",
+      level: "intermediate",
       keywords: ["Rust"],
-    },
-    {
-      name: "Infrastructure",
-      level: "advanced",
-      keywords: ["Docker", "Kubernetes"],
     },
     {
       name: "Build services",
       level: "master",
-      keywords: ["CircleCI", "Github Actions", "Jenkins"],
-    },
-    {
-      name: "Persistence",
-      level: "intermediate",
-      keywords: ["MongoDB"],
-    },
-    {
-      name: "Methods",
-      level: "advanced",
-      keywords: ["Agile", "Scrum"],
+      keywords: ["Github Actions", "CircleCI"],
     },
   ],
   languages: [
@@ -199,19 +175,8 @@ export const data: ResumeSchema = {
     },
     {
       language: "Swedish",
-      fluency: "Beginner",
+      fluency: "Semi-fluent third language",
     },
-  ],
-  interests: [
-    {
-      name: "Music",
-      keywords: ["Progressive House", "Deep House", "Anjuna"],
-    },
-    {
-      name: "Automation",
-      keywords: ["CI", "Linting", "Formatting", "Code quality"],
-    },
-    { name: "Performance", keywords: ["Rust"] },
   ],
   references: [],
 };

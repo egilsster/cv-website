@@ -12,9 +12,9 @@
 
 <Section>
   <header class="flex items-center">
-    <div class="mr-4 p-1 dark:bg-gray-200">
+    <div class="mr-4 dark:bg-gray-200 rounded-sm border border-gray-400/25 p-2">
       <img
-        class="self-start align-middle object-contain h-16 md:w-16"
+        class="self-start align-middle object-contain h-12 md:w-14"
         src={`img/${imageName}`}
         alt={`Logo for ${institution}`}
       />
