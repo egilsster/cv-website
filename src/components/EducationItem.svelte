@@ -12,9 +12,9 @@
 
 <Section>
   <header class="flex items-center">
-    <div class="mr-4 dark:bg-gray-200 rounded-sm border border-gray-400/25 p-2">
+    <div class="mr-4 rounded-sm border border-gray-400/25 p-2 dark:bg-gray-200">
       <img
-        class="self-start align-middle object-contain h-12 md:w-14"
+        class="h-12 self-start object-contain align-middle md:w-14"
         src={`img/${imageName}`}
         alt={`Logo for ${institution}`}
       />
@@ -27,7 +27,7 @@
       </p>
       <p>
         {area}
-        <time class="text-gray-500 dark:text-gray-400 text-xs pl-2"
+        <time class="pl-2 text-xs text-gray-500 dark:text-gray-400"
           >{formatDate(startDate)} - {formatDate(endDate)}</time
         >
       </p>

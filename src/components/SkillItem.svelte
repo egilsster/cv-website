@@ -16,7 +16,7 @@
     <ul class="list-none font-extralight">
       {#each keywords as keyword}
         <li
-          class="text-md inline-block rounded-sm m-0.5 px-1.5 py-0.5 bg-gray-900 text-white
+          class="text-md m-0.5 inline-block rounded-sm bg-gray-900 px-1.5 py-0.5 text-white
            dark:bg-slate-200 dark:text-gray-900"
         >
           <a href={`https://www.google.com/search?q=${keyword}`} target="_blank"

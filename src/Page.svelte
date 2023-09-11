@@ -17,13 +17,13 @@
   const { work, education, skills } = data;
 </script>
 
-<main class="bg-[#f5f5f5] dark:bg-gray-800 pb-1 thin-scroll">
+<main class="thin-scroll bg-[#f5f5f5] pb-1 dark:bg-gray-800">
   <LightSwitch on:click={toggleTheme} value={darkMode} />
 
   <article
-    class="flex flex-col h-[500px] items-center border-t-8 border-gray-800 dark:border-gray-200 sm:text-xl bg-[#e7eaea] dark:bg-gray-900 dark:text-gray-200"
+    class="flex h-[500px] flex-col items-center border-t-8 border-gray-800 bg-[#e7eaea] dark:border-gray-200 dark:bg-gray-900 dark:text-gray-200 sm:text-xl"
   >
-    <section class="flex flex-row justify-center lg:w-2/5 p-2 h-1/2">
+    <section class="flex h-1/2 flex-row justify-center p-2 lg:w-2/5">
       <div class="space-y-14">
         <p class="font-bold">
           Hæ, ég heiti Egill &mdash; I build frontend architecture and tools as
@@ -37,7 +37,7 @@
         </p>
 
         <p
-          class="pt-4 text-right text-sm md:text-md sm:text-base font-extralight"
+          class="md:text-md pt-4 text-right text-sm font-extralight sm:text-base"
         >
           <b class="font-bold">Contact me:</b>
           <a href="mailto:egillsveinbjorns+cv@gmail.com"
@@ -48,10 +48,10 @@
     </section>
   </article>
 
-  <section class="container md:mx-auto lg:w-3/5 px-3 dark:text-gray-200">
+  <section class="container px-3 dark:text-gray-200 md:mx-auto lg:w-3/5">
     <div>
       <h2
-        class="md:text-2xl font-semibold my-6 border-b border-black dark:border-gray-200"
+        class="my-6 border-b border-black font-semibold dark:border-gray-200 md:text-2xl"
       >
         Experience
       </h2>
@@ -72,7 +72,7 @@
 
     <div>
       <h2
-        class="md:text-2xl font-semibold my-6 border-b border-black dark:border-gray-200"
+        class="my-6 border-b border-black font-semibold dark:border-gray-200 md:text-2xl"
       >
         Education
       </h2>
@@ -90,7 +90,7 @@
 
     <div>
       <h2
-        class="md:text-2xl font-semibold my-6 border-b border-gray-900 dark:border-gray-200"
+        class="my-6 border-b border-gray-900 font-semibold dark:border-gray-200 md:text-2xl"
       >
         Skills
       </h2>

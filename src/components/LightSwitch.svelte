@@ -5,7 +5,7 @@
 </script>
 
 <button
-  class="fixed right-0 mt-3 mr-1 w-8 h-8 border-blue-200 bg-blue-200 dark:bg-gray-800 dark:border-gray-800 rounded-full border border-1 disable-dbl-tap-zoom focus:outline-none"
+  class="border-1 disable-dbl-tap-zoom fixed right-0 mr-1 mt-3 h-8 w-8 rounded-full border border-blue-200 bg-blue-200 focus:outline-none dark:border-gray-800 dark:bg-gray-800"
   on:click
 >
   {#if value}
