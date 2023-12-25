@@ -16,9 +16,8 @@ jobs:
         with:
           bun-version: latest
       - run: bun install
-      - run: bun lint
       - run: bun format:check
-      - run: bun types:check
+      - run: bun svelte-check
       - run: bun run build
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v2

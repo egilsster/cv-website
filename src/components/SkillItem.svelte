@@ -3,7 +3,7 @@
 
   export let name: string;
   export let level: string;
-  export let keywords: string[];
+  export let keywords: string[] = [];
 </script>
 
 <Section>

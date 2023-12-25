@@ -21,7 +21,7 @@
   <LightSwitch on:click={toggleTheme} value={darkMode} />
 
   <article
-    class="flex h-[500px] flex-col items-center border-t-8 border-gray-800 bg-[#e7eaea] dark:border-gray-200 dark:bg-gray-900 dark:text-gray-200 sm:text-xl"
+    class="flex h-[500px] flex-col items-center border-t-8 border-gray-800 bg-[#e7eaea] sm:text-xl dark:border-gray-200 dark:bg-gray-900 dark:text-gray-200"
   >
     <section class="flex h-1/2 flex-row justify-center p-2 lg:w-2/5">
       <div class="space-y-14">
@@ -48,10 +48,10 @@
     </section>
   </article>
 
-  <section class="container px-3 dark:text-gray-200 md:mx-auto lg:w-3/5">
+  <section class="container px-3 md:mx-auto lg:w-3/5 dark:text-gray-200">
     <div>
       <h2
-        class="my-6 border-b border-black font-semibold dark:border-gray-200 md:text-2xl"
+        class="my-6 border-b border-black font-semibold md:text-2xl dark:border-gray-200"
       >
         Experience
       </h2>
@@ -72,7 +72,7 @@
 
     <div>
       <h2
-        class="my-6 border-b border-black font-semibold dark:border-gray-200 md:text-2xl"
+        class="my-6 border-b border-black font-semibold md:text-2xl dark:border-gray-200"
       >
         Education
       </h2>
@@ -90,7 +90,7 @@
 
     <div>
       <h2
-        class="my-6 border-b border-gray-900 font-semibold dark:border-gray-200 md:text-2xl"
+        class="my-6 border-b border-gray-900 font-semibold md:text-2xl dark:border-gray-200"
       >
         Skills
       </h2>

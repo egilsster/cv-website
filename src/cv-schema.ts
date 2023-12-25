@@ -63,7 +63,7 @@ export interface ResumeSchema {
       url?: string;
     }[];
   };
-  work?: {
+  work: {
     /**
      * e.g. Facebook
      */
@@ -71,7 +71,7 @@ export interface ResumeSchema {
     /**
      * e.g. Menlo Park, CA
      */
-    company?: string;
+    company: string;
     /**
      * e.g. Social Media Company
      */
@@ -79,15 +79,15 @@ export interface ResumeSchema {
     /**
      * e.g. Software Engineer
      */
-    position?: string;
+    position: string;
     /**
      * e.g. http://facebook.example.com
      */
-    website?: string;
+    website: string;
     /**
      * resume.json uses the ISO 8601 date standard e.g. 2014-06-29
      */
-    startDate?: string;
+    startDate: string;
     /**
      * e.g. 2012-06-29
      */
@@ -132,27 +132,27 @@ export interface ResumeSchema {
     highlights?: string[];
     [k: string]: any;
   }[];
-  education?: {
+  education: {
     /**
      * e.g. Massachusetts Institute of Technology
      */
-    institution?: string;
+    institution: string;
     /**
      * e.g. Arts
      */
-    area?: string;
+    area: string;
     /**
      * e.g. Bachelor
      */
-    studyType?: string;
+    studyType: string;
     /**
      * e.g. 2014-06-29
      */
-    startDate?: string;
+    startDate: string;
     /**
      * e.g. 2012-06-29
      */
-    endDate?: string;
+    endDate: string;
     /**
      * grade point average, e.g. 3.67/4.0
      */
@@ -214,15 +214,15 @@ export interface ResumeSchema {
   /**
    * List out your professional skill-set
    */
-  skills?: {
+  skills: {
     /**
      * e.g. Web Development
      */
-    name?: string;
+    name: string;
     /**
      * e.g. Master
      */
-    level?: string;
+    level: string;
     /**
      * List some keywords pertaining to this skill
      */
