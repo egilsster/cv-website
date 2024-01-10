@@ -33,7 +33,7 @@
 >
   <Lights />
 
-  <article class="container z-0 max-w-[750px] px-3 text-gray-200">
+  <article class="container z-0 max-w-[750px] px-3 text-gray-300">
     <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
     <section
       tabindex={0}
