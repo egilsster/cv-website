@@ -7,7 +7,7 @@ export const data: ResumeSchema = {
     label: "Software Engineer",
     email: "egillsveinbjorns+cv@gmail.com",
     summary:
-      "I am deeply committed to delivering excellence with a quality-first approach. My work ethic is defined by thorough problem-solving, collaborative teamwork, and open, clear communication. At my core, I am committed to delivering outstanding user experiences, guided by meticulous attention to detail and high professional standards.",
+      "I am deeply committed to delivering excellence with a quality-first approach. My work ethic is defined by thorough problem-solving, collaborative teamwork, and open, clear communication. At my core, I am committed to delivering outstanding user experiences, guided by meticulous attention to detail, conscientiousness, and high standards.",
     location: {
       address: "",
       postalCode: "",
@@ -59,11 +59,11 @@ export const data: ResumeSchema = {
       summary:
         "Member of the frontend core team that is focused on frontend architecture and streamlining delivery pipelines, workflows, and various other pieces all directly related to the frontend strategy at Qlik. We build tools, infrastructure, and empower our fellow frontend engineering teams to ship higher-quality software in less time.",
       highlights: [
-        "Building and documenting internal APIs and tools for our developers, saving them valuable time every month by reducing boilerplate and maximizing effectiveness.",
+        "Building and documenting internal APIs and tools for our developers, increasing development velocity.",
         "Building our frontend delivery pipeline with reusable GitHub workflows and actions.",
-        "Providing thorough code reviews and constructive feedback, accelerating project completion, and enhancing quality for developers at all levels.",
-        "Achieved substantial cost savings and saved development hours by optimizing build pipelines, enhancing CI efficiency.",
-        "Improving performance in critical areas, drastically elevating user experience and satisfaction.",
+        "Providing thorough code reviews and constructive feedback, accelerating project completion, and improving quality for developers at all levels.",
+        "Achieved substantial cost savings and saved development hours by optimizing build pipelines, improving CI efficiency.",
+        "Improving performance across the product line, significantly elevating user experience and satisfaction.",
         "Acting as a promotion sponsor for several colleagues, supporting their advancement to more senior positions and career growth.",
         "A strong proponent for code quality, correctness, and testing. Standardized quality tooling across our frontend projects, ensuring consistency and excellence in engineering practices.",
       ],
@@ -75,11 +75,7 @@ export const data: ResumeSchema = {
       startDate: "2020-11-02",
       endDate: "2021-03-01",
       summary:
-        "Contributed to the development of a new product called Astrato. My responsibilities included not only technical development but also operational tasks like setting up the office. This experience allowed me to hone my skills in both software development and operational management, particularly in an international team setting.",
-      highlights: [
         "Building the user authentication layer for Astrato, focusing on secure and efficient user access.",
-        "Setting up the office to create a compelling work environment.",
-      ],
     },
     {
       company: "Qlik",
@@ -88,7 +84,7 @@ export const data: ResumeSchema = {
       startDate: "2017-11-01",
       endDate: "2020-10-23",
       summary:
-        "Contributed to several key teams across different locations. In Iceland, I developed the resource storage service for our SaaS product. After relocating to Sweden, I assumed the role of tech lead for a new team, where I developed and integrated our new natural language capabilities into our products. This involved creating a backend layer that interfaced between the UI and natural language models. Later, I shifted my focus entirely to frontend development, joining the analytics client core team. In this role, I was instrumental in defining our frontend guidelines, improving the development experience, and coordinating significant, high-impact changes across our frontend projects through close collaboration with various teams.",
+        "Contributed to several key teams across different locations. In Iceland, we developed the resource storage service for our SaaS product. After relocating to Sweden, I assumed the role of tech lead for a new team, where we developed and integrated our new natural language capabilities into our products. This involved creating a backend layer that interfaced between the UI and natural language models. Later, I shifted my focus entirely to frontend development, joining the analytics client core team. In this role, I was instrumental in defining our frontend guidelines, improving the development experience, and coordinating significant, high-impact changes across our frontend projects through close collaboration with various teams.",
       highlights: [
         "Successfully improved our development velocity and reduced the resource footprint of our service by 75% through leading a strategic initiative to rewrite our Java service in Node.js using TypeScript.",
         "As the primary maintainer of our backend service, I was responsible for deployments, ensuring SLA compliance, observability, and seamless operations. My responsibilities also included effectively translating feature requests into actionable tickets.",
@@ -103,11 +99,11 @@ export const data: ResumeSchema = {
       startDate: "2016-08-01",
       endDate: "2017-10-31",
       summary:
-        "Contributed to building a general-purpose resource storage service, designed to offer functionalities like publishing, relating, finding, consuming, and versioning various resources through a RESTful interface. This service became a crucial part of the infrastructure across diverse platforms including cloud, desktop, enterprise, and mobile. Our team managed the entire project lifecycle, from the initial design and implementation to deploying and observability in our cloud infrastructure. Additionally, we integrated this service into Qlik's global product suite, collaborating with teams around the world to ensure a seamless and efficient implementation.",
+        "Contributed to building a general-purpose resource storage service, designed to offer functionalities like publishing, finding, and consuming themes and extensions through a RESTful interface. This service became a crucial part of the infrastructure across diverse platforms including cloud, desktop, enterprise, and mobile. We managed the entire project lifecycle, from the initial design and implementation to deploying and observability in our cloud infrastructure. Additionally, we integrated this service into Qlik's global product suite, collaborating with teams around the world to ensure a seamless and efficient implementation.",
       highlights: [
-        "As a champion for a backend service, I successfully managed a Java application, ensuring its optimal performance in our cloud infrastructure, and reaching all SLA targets.",
+        "As a champion for a backend service, I successfully managed a Java application, ensuring smooth operations in our cloud offering, and reaching all SLA targets.",
         "Led the successful onboarding and deployment of our new Java service into the cloud pipeline.",
-        "Instrumental in introducing TypeScript to the company, I spearheaded the migration of the Qlik DataMarket product to TypeScript. This move significantly boosted development velocity and release confidence.",
+        "Instrumental in introducing TypeScript to the company, I spearheaded the migration of the Qlik DataMarket product to TypeScript, increasing development velocity and release confidence.",
       ],
     },
     {
@@ -117,7 +113,7 @@ export const data: ResumeSchema = {
       startDate: "2016-01-15",
       endDate: "2016-06-15",
       summary:
-        "As an Intern, I was actively involved in a variety of software projects. My role consisted not only of hands-on development but also architectural design and process enhancement, contributing significantly to the organization's software engineering practices.",
+        "As an Intern, I was actively involved in a variety of software projects. My role consisted of hands-on development, architectural design, and process enhancement, contributing significantly to the organization's software engineering practices.",
       highlights: [
         "Played a pivotal role in introducing microservices architecture, leading the transition to more modular and scalable software.",
         "Led the adoption of TypeScript for all our projects, enhancing code reliability and maintainability.",
