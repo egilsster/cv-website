@@ -34,7 +34,8 @@
     position: absolute;
     inset: 0;
     height: 600px;
-    widows: 100%;
+    width: 100%;
+    overflow: hidden;
     filter: blur(var(--blob-blur));
   }
 
