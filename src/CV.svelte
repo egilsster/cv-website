@@ -53,7 +53,7 @@
       </p>
 
       <p class="text-sm">
-        At my core is a constant commitment to provide outstanding user
+        At my core is a constant commitment to providing outstanding user
         experiences, underpinned by my meticulous attention to detail and high
         standards.
       </p>

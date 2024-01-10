@@ -57,11 +57,11 @@ export const data: ResumeSchema = {
       website: "https://qlik.com",
       startDate: "2021-03-02",
       summary:
-        "Member of the frontend core team that is focused on frontend architecture and streamlining delivery pipelines, workflows and various other pieces all directly related to the frontend strategy at Qlik. We build tools, infrastructure, and empower our fellow frontend engineering teams to ship higher quality software in less time.",
+        "Member of the frontend core team that is focused on frontend architecture and streamlining delivery pipelines, workflows, and various other pieces all directly related to the frontend strategy at Qlik. We build tools, infrastructure, and empower our fellow frontend engineering teams to ship higher-quality software in less time.",
       highlights: [
         "Building and documenting internal APIs and tools for our developers, saving them valuable time every month by reducing boilerplate and maximizing effectiveness.",
         "Building our frontend delivery pipeline with reusable GitHub workflows and actions.",
-        "Providing thorough code reviews and constructive feedback, accelerating project completion and enhancing quality for developers at all levels.",
+        "Providing thorough code reviews and constructive feedback, accelerating project completion, and enhancing quality for developers at all levels.",
         "Achieved substantial cost savings and saved development hours by optimizing build pipelines, enhancing CI efficiency.",
         "Improving performance in critical areas, drastically elevating user experience and satisfaction.",
         "Acting as a promotion sponsor for several colleagues, supporting their advancement to more senior positions and career growth.",
@@ -78,8 +78,7 @@ export const data: ResumeSchema = {
         "Contributed to the development of a new product called Astrato. My responsibilities included not only technical development but also operational tasks like setting up the office. This experience allowed me to hone my skills in both software development and operational management, particularly in an international team setting.",
       highlights: [
         "Building the user authentication layer for Astrato, focusing on secure and efficient user access.",
-        "Collaborated closely with the development team in Poland, enhancing product development through cross-border teamwork.",
-        "Played an integral role in establishing the new office in Lund.",
+        "Setting up the office to create a compelling work environment.",
       ],
     },
     {
@@ -156,15 +155,6 @@ export const data: ResumeSchema = {
       studyType: "Dale Carnegie Class - Next generation # 16.15.",
       startDate: "2015-09-01",
       endDate: "2015-11-01",
-      gpa: "",
-      courses: [],
-    },
-    {
-      institution: "Community College of Breiðholt",
-      area: "Natural Sciences",
-      studyType: "College",
-      startDate: "2007-06-01",
-      endDate: "2011-12-01",
       gpa: "",
       courses: [],
     },
