@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700);
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Apercu Regular", Calibri, sans-serif;
   font-size-adjust: 0.5;
 }
 
@@ -28,15 +25,4 @@ a {
   -webkit-transition: 0.25s ease-out;
   -moz-transition: 0.25s ease-out;
   -o-transition: 0.25s ease-out;
-}
-
-/* Text selections */
-::selection {
-  color: white;
-  background-color: #607d8b;
-}
-
-/* Disable double tap to zoom on mobile */
-.disable-dbl-tap-zoom {
-  touch-action: manipulation;
 }

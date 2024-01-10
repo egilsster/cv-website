@@ -226,7 +226,7 @@ export interface ResumeSchema {
     /**
      * List some keywords pertaining to this skill
      */
-    keywords?: string[];
+    keywords: string[];
     [k: string]: any;
   }[];
   /**

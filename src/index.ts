@@ -1,7 +1,3 @@
-import Page from "./Page.svelte";
+import CV from "./CV.svelte";
 
-const app = new Page({
-  target: document.body,
-});
-
-export default app;
+export const app = new CV({ target: document.body });
