@@ -93,7 +93,8 @@ export const data: ResumeSchema = {
       highlights: [
         "Successfully improved our development velocity and reduced the resource footprint of our service by 75% through leading a strategic initiative to rewrite our Java service in Node.js using TypeScript.",
         "As the primary maintainer of our backend service, I was responsible for deployments, ensuring SLA compliance, observability, and seamless operations. My responsibilities also included effectively translating feature requests into actionable tickets.",
-        "Cross team knowledge sharing to integrate our service into the Qlik ecosystem.",
+        "Cross-team knowledge sharing to integrate our service into the Qlik ecosystem.",
+        "Contributed to the modernization of DataMarket's backend services by upgrading them from Python 2 (end of life) to Python 3, ensuring compatibility and mitigating any potential security issues.",
       ],
     },
     {
@@ -103,9 +104,9 @@ export const data: ResumeSchema = {
       startDate: "2016-08-01",
       endDate: "2017-10-31",
       summary:
-        "Contributed to building a general-purpose resource storage service, designed to offer functionalities like publishing, relating, finding, consuming, and versioning various resources through a RESTful interface. This service became a crucial part of the infrastructure across diverse platforms including cloud, desktop, enterprise, and mobile. Our team managed the entire project lifecycle, from the initial design and implementation to deploying and observability in our cloud infrastructure. Additionally, we were integrated this service into Qlik's global product suite, collaborating with teams around the world to ensure a seamless and efficient implementation.",
+        "Contributed to building a general-purpose resource storage service, designed to offer functionalities like publishing, relating, finding, consuming, and versioning various resources through a RESTful interface. This service became a crucial part of the infrastructure across diverse platforms including cloud, desktop, enterprise, and mobile. Our team managed the entire project lifecycle, from the initial design and implementation to deploying and observability in our cloud infrastructure. Additionally, we integrated this service into Qlik's global product suite, collaborating with teams around the world to ensure a seamless and efficient implementation.",
       highlights: [
-        "As a champion for a backend service, I successfully managed a Java application, ensuring its optimal performance in our cloud infrastructure, reaching all SLA targets.",
+        "As a champion for a backend service, I successfully managed a Java application, ensuring its optimal performance in our cloud infrastructure, and reaching all SLA targets.",
         "Led the successful onboarding and deployment of our new Java service into the cloud pipeline.",
         "Instrumental in introducing TypeScript to the company, I spearheaded the migration of the Qlik DataMarket product to TypeScript. This move significantly boosted development velocity and release confidence.",
       ],
@@ -117,9 +118,9 @@ export const data: ResumeSchema = {
       startDate: "2016-01-15",
       endDate: "2016-06-15",
       summary:
-        "As an Intern at Fraunhofer USA Center for Experimental Software Engineering, I was actively involved in a variety of software projects. My role consisted not only hands-on development but also architectural design and process enhancement, contributing significantly to the organization's software engineering practices.",
+        "As an Intern, I was actively involved in a variety of software projects. My role consisted not only of hands-on development but also architectural design and process enhancement, contributing significantly to the organization's software engineering practices.",
       highlights: [
-        "Played a pivotal role in introducing microservices architecture, serving as the main software architect for my group and leading the transition to more modular and scalable software.",
+        "Played a pivotal role in introducing microservices architecture, leading the transition to more modular and scalable software.",
         "Led the adoption of TypeScript for all our projects, enhancing code reliability and maintainability.",
         "Introduced best practices in the build process and development environment.",
       ],
