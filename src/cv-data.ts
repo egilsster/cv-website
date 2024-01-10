@@ -32,7 +32,7 @@ export const data: ResumeSchema = {
     {
       name: "Languages",
       level: "",
-      keywords: ["TypeScript ❤️", "JavaScript", "Python", "Rust"],
+      keywords: ["TypeScript", "JavaScript", "Python", "Rust"],
     },
     {
       name: "Web",
@@ -42,15 +42,7 @@ export const data: ResumeSchema = {
     {
       name: "Tooling",
       level: "",
-      keywords: [
-        "Webpack",
-        "Vite",
-        "Rollup",
-        "ESLint",
-        "Prettier",
-        "Biome",
-        "pnpm",
-      ],
+      keywords: ["Webpack", "Vite", "ESLint", "Prettier", "Biome"],
     },
     {
       name: "Build systems",

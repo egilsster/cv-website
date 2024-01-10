@@ -77,10 +77,22 @@
           Development skills
         </h2>
 
-        <dl class="font-mono-code">
+        <dl
+          class="flex flex-col font-mono-code md:grid md:grid-cols-4 md:gap-4"
+        >
           {#each data.skills as { name, keywords }}
-            <dt class="font-mono-code underline">{name}</dt>
-            <dd>{keywords.join(", ")}</dd>
+            <div class="flex flex-col items-start">
+              <dt class="mb-1 font-mono-code underline">{name}</dt>
+              <dd class="flex flex-row text-sm md:flex-col">
+                {#each keywords as keyword}
+                  <p class="group whitespace-normal">
+                    {keyword}<span class="group-last:hidden md:hidden"
+                      >,&nbsp;</span
+                    >
+                  </p>
+                {/each}
+              </dd>
+            </div>
           {/each}
         </dl>
       </div>
@@ -111,7 +123,7 @@
                 </div>
 
                 <div>
-                  <p class="text-lg">
+                  <p class="text-base lg:text-lg">
                     {position},
                     <a href={website} target="_blank">{company}</a>
                   </p>
