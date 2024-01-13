@@ -72,7 +72,7 @@ export const data: ResumeSchema = {
       company: "Vizlib",
       position: "Senior Software Developer",
       website: "https://home.vizlib.com",
-      startDate: "2020-11-02",
+      startDate: "2020-11-01",
       endDate: "2021-03-01",
       summary:
         "Building the user authentication layer for Astrato, focusing on secure and efficient user access.",
