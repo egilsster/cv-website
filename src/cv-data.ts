@@ -37,7 +37,7 @@ export const data: ResumeSchema = {
     {
       name: "Web",
       level: "",
-      keywords: ["React", "Svelte", "CSS", "HTML"],
+      keywords: ["React", "Svelte", "TailwindCSS", "CSS", "HTML"],
     },
     {
       name: "Tooling",
