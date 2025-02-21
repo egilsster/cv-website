@@ -1,4 +1,4 @@
-<div class="grain fixed inset-0" />
+<div class="grain fixed inset-0"></div>
 
 <style>
   .grain {

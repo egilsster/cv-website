@@ -34,7 +34,7 @@
   <Lights />
 
   <article class="container z-0 max-w-[750px] px-3 text-gray-300">
-    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+    <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
     <section
       tabindex={0}
       class="my-24 flex flex-col justify-center space-y-4 font-mono-code mix-blend-luminosity sm:text-xl"
@@ -69,7 +69,7 @@
     </section>
 
     <section>
-      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
           class="mb-2 mt-6 border-b border-gray-200 font-mono-code font-semibold md:text-2xl"
@@ -97,7 +97,7 @@
         </dl>
       </div>
 
-      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
           class="mb-2 mt-6 border-b border-gray-200 font-mono-code font-semibold md:text-2xl"
@@ -152,7 +152,7 @@
         {/each}
       </div>
 
-      <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+      <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
           class="mb-2 mt-6 border-b border-gray-200 text-lg font-semibold md:text-2xl"
