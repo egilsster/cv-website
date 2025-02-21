@@ -2,8 +2,9 @@
 
 @theme {
   --font-system-ui: system-ui, sans-serif;
-  --font-mono-code: ui-monospace, Cascadia Code, Source Code Pro, Menlo,
-    Consolas, DejaVu Sans Mono, monospace;
+  --font-mono-code:
+    ui-monospace, Cascadia Code, Source Code Pro, Menlo, Consolas,
+    DejaVu Sans Mono, monospace;
 }
 
 /*
