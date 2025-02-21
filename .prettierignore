@@ -9,4 +9,4 @@ LICENSE
 *.png
 *.ico
 dist/
-bun.lockb
+bun.lock
