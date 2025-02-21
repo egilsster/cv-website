@@ -1,3 +1,7 @@
+<script lang="ts">
+  let {}: {} = $props();
+</script>
+
 <div class="blobs" role="presentation">
   <div class="blob-rotate">
     <div class="blob-move">

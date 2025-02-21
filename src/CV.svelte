@@ -33,11 +33,11 @@
 >
   <Lights />
 
-  <article class="container z-0 max-w-[750px] px-3 text-gray-300">
+  <article class="z-0 container max-w-[750px] px-3 text-gray-300">
     <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
     <section
       tabindex={0}
-      class="my-24 flex flex-col justify-center space-y-4 font-mono-code mix-blend-luminosity sm:text-xl"
+      class="font-mono-code my-24 flex flex-col justify-center space-y-4 mix-blend-luminosity sm:text-xl"
     >
       <p class="font-bold">Hello there!</p>
 
@@ -72,17 +72,17 @@
       <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
-          class="mb-2 mt-6 border-b border-gray-200 font-mono-code font-semibold md:text-2xl"
+          class="font-mono-code mt-6 mb-2 border-b border-gray-200 font-semibold md:text-2xl"
         >
           Development skills
         </h2>
 
         <dl
-          class="flex flex-col font-mono-code md:grid md:grid-cols-4 md:gap-4"
+          class="font-mono-code flex flex-col md:grid md:grid-cols-4 md:gap-4"
         >
           {#each data.skills as { name, keywords }}
             <div class="flex flex-col items-start">
-              <dt class="mb-1 font-mono-code underline">{name}</dt>
+              <dt class="font-mono-code mb-1 underline">{name}</dt>
               <dd class="flex flex-row text-sm md:flex-col">
                 {#each keywords as keyword}
                   <p class="group whitespace-normal">
@@ -100,7 +100,7 @@
       <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
-          class="mb-2 mt-6 border-b border-gray-200 font-mono-code font-semibold md:text-2xl"
+          class="font-mono-code mt-6 mb-2 border-b border-gray-200 font-semibold md:text-2xl"
         >
           Experience
         </h2>
@@ -108,12 +108,12 @@
         {#each data.work as { company, position, website, startDate, endDate, summary, highlights }}
           <article
             tabindex={0}
-            class="my-1 flex border-b-2 pb-4 pt-2 last:border-b-0"
+            class="my-1 flex border-b-2 pt-2 pb-4 last:border-b-0"
           >
             <section class="space-y-4">
-              <header class="flex items-center font-mono-code">
+              <header class="font-mono-code flex items-center">
                 <div
-                  class="mr-4 rounded-sm border border-gray-400/25 bg-gray-200 p-1.5"
+                  class="mr-4 rounded-xs border border-gray-400/25 bg-gray-200 p-1.5"
                 >
                   <img
                     class="h-7 self-start align-middle"
@@ -155,14 +155,14 @@
       <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
       <div tabindex={0}>
         <h2
-          class="mb-2 mt-6 border-b border-gray-200 text-lg font-semibold md:text-2xl"
+          class="mt-6 mb-2 border-b border-gray-200 text-lg font-semibold md:text-2xl"
         >
           Education
         </h2>
         {#each data.education as { institution, studyType, startDate, endDate, area }}
           <article
             tabindex={0}
-            class="my-1 flex border-b-2 pb-4 pt-2 last:border-b-0"
+            class="my-1 flex border-b-2 pt-2 pb-4 last:border-b-0"
           >
             <section class="space-y-4">
               <section class="flex flex-col font-mono text-sm">
@@ -183,7 +183,7 @@
     </section>
   </article>
 
-  <footer class="z-0 py-12 font-mono-code text-gray-300">
+  <footer class="font-mono-code z-0 py-12 text-gray-300">
     <a href="#top">Back to the top</a>
   </footer>
 </main>

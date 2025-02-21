@@ -1,3 +1,7 @@
+<script lang="ts">
+  let {}: {} = $props();
+</script>
+
 <div class="grain fixed inset-0"></div>
 
 <style>
