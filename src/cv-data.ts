@@ -53,9 +53,23 @@ export const data: ResumeSchema = {
   work: [
     {
       company: "Qlik",
+      position: "Staff Technical Lead",
+      website: "https://qlik.com",
+      startDate: "2024-04-01",
+      summary:
+        "Continuous improvement of the frontend architecture and delivery pipelines, workflows, and various other pieces all directly related to the frontend strategy at Qlik. The team is still focusing on its goal of making it easier for developers to ship higher-quality software in less time.",
+      highlights: [
+        "Helped crafting Qlik Answers, a new product that leverages LLMs to provide users with insights and answers from their data.",
+        "Driving improvements in quality across the organization, including the introduction of new tools and processes to enhance code quality and testing practices.",
+        "Driving tech debt reduction initiatives, ensuring our codebase remains maintainable and scalable.",
+      ],
+    },
+    {
+      company: "Qlik",
       position: "Senior Software Engineer",
       website: "https://qlik.com",
       startDate: "2021-03-02",
+      endDate: "2024-03-31",
       summary:
         "Member of the frontend core team that is focused on frontend architecture and streamlining delivery pipelines, workflows, and various other pieces all directly related to the frontend strategy at Qlik. We build tools, infrastructure, and empower our fellow frontend engineering teams to ship higher-quality software in less time.",
       highlights: [
