@@ -1,29 +1,8 @@
 <script lang="ts">
-  import { intervalToDuration } from "date-fns/intervalToDuration";
   import { data } from "./cv-data";
   import Lights from "./Lights.svelte";
   import Grain from "./Grain.svelte";
-
-  const formatDate = (value: string | undefined): string => value ?? "Present";
-
-  function getTimeRange(start: string, end: string | undefined): string {
-    function fmt(text: string, plural: boolean): string {
-      return text.concat(plural ? "s" : "");
-    }
-
-    const { months, years } = intervalToDuration({
-      start: new Date(start),
-      end: end ? new Date(end) : new Date(),
-    });
-    const ranges: string[] = [];
-    if (years) {
-      ranges.push(`${years} ${fmt("year", years > 1)}`);
-    }
-    if (months) {
-      ranges.push(`${months} ${fmt("month", months > 1)}`);
-    }
-    return ranges.join(", ");
-  }
+  import { formatDate, getTimeRange } from "./date-utils";
 </script>
 
 <Grain />
